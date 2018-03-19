@@ -1,0 +1,69 @@
+.site-banner #particles-js canvas {
+	width: 100% !important;
+}
+.tm-overlay-caption {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.tm-quick-chat {
+	top: 90vh;
+	position: fixed;
+	right: 30px;
+}
+
+.tm-section-border-top {
+	position: relative;
+	padding-top: 50px !important;
+}
+.tm-section-border-bottom {
+	position: relative;
+	padding-bottom: 50px !important;
+}
+.tm-section-border-bottom::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 3px;
+	width: 80px;
+	background-color: #ff9700;
+}
+.tm-section-border-top::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 3px;
+	width: 80px;
+	background-color: #ff9700;
+}
+
+.tm-card {
+    padding: 70px 60px;
+}
+
+.tm-card.tm-type-one h6 {
+	color: #48a942;
+}
+
+.tm-card.tm-type-two  ul li {
+	color: #00adef;
+}
+.tm-card.tm-type-three h6{
+	color: #00adef;
+}
+
+.current-menu-item a { color: #ff9700 !important; }
+
+.tm-callout .uk-button:hover { color: #fff; background-color: #3399ff; box-shadow: none; border-color: #3399ff; }
+.tm-secondary-callout { background-color: #3399ff; }
+.tm-secondary-callout .uk-button:hover { color: #fff; background-color: #ff9800; box-shadow: none; border-color: #ff9800; }
+
+@media only screen and (max-width: 767px) {
+	.tm-overlay-caption {
+		padding: 0 15px;
+	}
+}
